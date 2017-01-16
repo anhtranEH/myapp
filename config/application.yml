@@ -1,0 +1,84 @@
+RECIPIENT_INTERCEPTOR: 'anh.duc526@gmail.com'
+AIRBRAKE_API_KEY: 'c12b8d189db01e654650577b61273433'
+BRAINTREE_MERCHANT_ID: '686sqdnywfkx4jxc'
+BRAINTREE_PUBLIC_KEY: '8wf5mm2wnb9kqpgk'
+BRAINTREE_PRIVATE_KEY: '0322811f9c47c089f45e3ef3b232e1d7'
+JOBS_API_URL: 'http://localhost:3000/api/v1'
+DISABLE_SSO: 'true'
+AWS_ACCESS_KEY_ID: 'key'
+AWS_SECRET_ACCESS_KEY: 'secret'
+FOG_DIRECTORY: 'eh-assets-dev'
+WORKFLOW_ORG_IDS: ''
+POSTAGEAPP_API_KEY: 'QIBSaTvBQXbay9VnFJnONTlfHnckiggb'
+SALESFORCE_USER: 'user'
+SALESFORCE_PWD: 'pwd'
+SALESFORCE_TOKEN: 'NMjne2jn2YCdyt5sKIEgpEa7'
+SALESFORCE_CLIENT_ID: "client id from SF"
+SALESFORCE_CLIENT_SECRET: "client secret key from SF"
+SALESFORCE_HOST: "test.salesforce.com"
+SALESFORCE_API_VERSION: '37.0'
+
+ENCRYPTOR_KEY: 'ThzWGFhyrKNct2'
+ENCRYPTOR_IV: "B\f\xD1\x10G\xEF\x04\xB6\xB6\xC3\xEC\xF3\e`!\xD6"
+ENCRYPTOR_SALT: 'B0Oa6hjSO5zYSNS'
+
+AWS_EXPIRE_IN_SECONDS: '900'
+CARRIERWAVE_S3_BUCKET: 'eh-assets-dev'
+CDN_ASSET_HOST: 'http://d3ac97y3ron83g.cloudfront.net'
+DEFAULT_SENDER:   'no-reply@employmenthero.com'
+SATIS_METER_START_DATE: '17/06/2016'
+SATIS_METER_TOKEN: 'EuTa6MATUhtoZqkK'
+
+FILEPICKER_API_KEY: 'key'
+FILEPICKER_SECRET_KEY: 'secret'
+
+development:
+  FILEPICKER_API_KEY: 'ARvL92yHTIu3RCnm6N7cJz'
+  KEYPAY_API_KEY: 'KEY HERE'
+  MIXPANEL_TOKEN: 8817f125b41428dc70ca32ea410e81ea
+  FACEBOOK_KEY: '1484539558462035'
+  FACEBOOK_SECRET: '6cc969ec855ac562546810dab1788fe6'
+  LINKEDIN_KEY: 77oznh2a3kvp6w
+  LINKEDIN_SECRET: f25vTljEMTbAxEqo
+  JOB_URL: 'http://localhost:3001'
+  SINGLE_AUTHENTICATION_KEY: 'secret'
+  INSPECTLET_ID: '1598101060'
+  CARRIERWAVE_AWS_ACCESS_KEY_ID: 'key'
+  CARRIERWAVE_AWS_SECRET_ACCESS_KEY: 'secret'
+  MYOB_CONSUMER_KEY: 'hwvxckzwscck9u3jkf5um2fb'
+  MYOB_CONSUMER_SECRET: 'kAjTu2ThzWGFhyrKNct2RXbM'
+  MYOB_REDIRECT_URL: 'http://localhost:3000/addons/myob/auth/callback'
+  MYOB_EH_BASE_URL: 'http://localhost:3000/api/v1'
+  STATS_EMAIL_LIST: 'youremail@goes.here, yourotheremail@goes.here'
+  SERVICES_LEADS:   'youremail@goes.here, yourotheremail@goes.here'
+  EH_UPDATES:       'youremail@goes.here, yourotheremail@goes.here'
+  INTERCOM_SECRET:  'obtain from intercom devops account'
+  INTERCOM_APP_ID:  'wpdk08wb'
+  INTERCOM_API_KEY: 'ececfd702b804b20e08e2dc0c9efa22d4399afb9'
+
+test:
+  KEYPAY_API_KEY: 'KEY HERE'
+  MIXPANEL_TOKEN: 8817f125b41428dc70ca32ea410e81ea
+  FACEBOOK_KEY: '1484539558462035'
+  FACEBOOK_SECRET: '6cc969ec855ac562546810dab1788fe6'
+  LINKEDIN_KEY: 77oznh2a3kvp6w
+  LINKEDIN_SECRET: f25vTljEMTbAxEqo
+  JOB_URL: 'http://localhost:3001'
+  SINGLE_AUTHENTICATION_KEY: 'secret'
+  INSPECTLET_ID: '1598101060'
+  INTERCOM_SECRET:  'obtain from intercom devops account'
+  INTERCOM_APP_ID:  'qwerty'
+  INTERCOM_API_KEY: 'obtain from intercom devops account'
+
+production:
+  MIXPANEL_TOKEN: 36457910ceb909c0a888c62e1379b955
+  CIRCLECI_TOKEN: ''
+  GITHUB_TOKEN: ''
+  FACEBOOK_KEY: '1484539558462035'
+  FACEBOOK_SECRET: '6cc969ec855ac562546810dab1788fe6'
+  LINKEDIN_KEY: 77oznh2a3kvp6w
+  LINKEDIN_SECRET: f25vTljEMTbAxEqo
+  JOB_URL: 'https://jobs.employmenthero.com'
+  SINGLE_AUTHENTICATION_KEY: 'secret'
+  INSPECTLET_ID: '312737013'
+  INTERCOM_SECRET:  'obtain from intercom devops account'
